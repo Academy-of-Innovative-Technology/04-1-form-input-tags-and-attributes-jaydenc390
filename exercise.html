@@ -13,21 +13,30 @@
     <a href="code-along.html">Code Along</a>
     <a href="exercise.html">Individual Exercise</a>
   </nav>
-  
+
   <div class="form">
-        <input class="ipt1" placeholder="age">
-        <br>
-        <br>
-        <input class="ipt2" placeholder="enter name here">
-        <br>
-        <br>
-        <input class="ipt3" placeholder="enter password here">
-        <br>
-        <br>
-        <input onclick="test()">
-        <input >
+    <header title="User Information">
+      <main>
+        <form name="userForm" method="post" action="#">
+          <input class="ipt1" type="number" max="19" min="13" placeholder="age">
+          <br>
+          <br>
+          <input class="ipt2" type="text" placeholder="autofocus">
+          <br>
+          <br>
+          <input class="ipt3" type="password" placeholder="enter your text here">
+          <br>
+          <br>
+          <input onclick="test()" type="submit" placeholder="Submit Button">
+          <input type="reset" placeholder="Reset Button">
+          <input type="email" placeholder="email">
+          <input type="url" placeholder="url">
+          <input type="tel" placeholder="tel">
+        </form>
+      </main>
+    </header>
   </div>
-  
+  <footer>Your information is safe with us.</footer>
   <script src="script.js"></script>
 
   <!--
